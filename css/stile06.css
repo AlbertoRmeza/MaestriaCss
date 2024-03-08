@@ -1,0 +1,18 @@
+.contenedor > div > h1{
+    color: blue;
+}
+
+/* Selectores hermanos */
+
+
+/* Hermano general */
+.articulo h1 ~span{
+    color: gray;
+}
+
+/* Hermano adyacente */
+.articulo h1 + span {
+    color: red;
+}
+
+

@@ -1,0 +1,33 @@
+
+/*  Pseudoclases */
+
+/*  Enlaces mo visitados */
+a:link{
+    color: orange;
+}
+
+/* Enlace visitado */
+a:visited{
+    color: violet;
+}
+
+
+/* Input seleccion */
+input:focus {
+    background: red;
+}
+
+/* Pasar cursor encima de mis elementos */
+a:hover{
+    color: red;
+    font-size: 20px;
+
+}
+
+/* Pseudoclase de negacion */
+p:not(.kk){
+    color: red;
+}
+
+
+

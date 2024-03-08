@@ -1,0 +1,36 @@
+/* Pseudoclases avanzadas */
+
+/* Primer elemnto */
+p:first-child{
+    color: blue;
+}
+
+/* Ultimo elemnto */
+p:last-child{
+    color: red;
+}
+
+/* N elemento */
+p:nth-child(3){
+    color: turquoise;
+}
+
+p:nth-last-child(2){
+    color: violet;
+}
+
+/* Elementos pares */
+p:nth-child(even){
+    color: orange;
+}
+p:nth-child(odd){
+    color: yellowgreen;
+}
+
+/* Elementos n */
+p:nth-child(2n){
+    color: black;
+}
+
+
+
