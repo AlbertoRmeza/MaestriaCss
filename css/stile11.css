@@ -2,3 +2,29 @@ input[type="text"]{
     background: red;
 }
 
+input[type="number"]{
+    background: greenyellow;
+}
+
+a[href="www.google.com"]{
+    color: orange;
+}
+
+/* Que contengan una palbra */
+a[href*="udemy"]{
+    color: violet;
+}
+
+/* Que comience por una palabra */
+a[href^="http"]{
+    color:olivedrab;
+}
+
+/* Que terminen por una palabra */
+a[href$="pdf"]{
+    color:yellowgreen;
+}
+
+
+
+

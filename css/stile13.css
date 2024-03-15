@@ -1,0 +1,12 @@
+/* CSS CASCADA */
+/* Toma los elementos de arriba a abajo dando mayor importancia al de abajo */
+/* Toma primero los elementos mas especificos */
+/* Se puede romper la regla con !important */
+
+p {
+    color: blue !important;
+}
+
+p{
+    color: red;
+}

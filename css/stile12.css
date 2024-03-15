@@ -1,0 +1,36 @@
+          /* BEM
+               - B BLOCK .block
+               - E ELEMENT .block__item
+               - M MODIFIER   .block-modifier       
+           */
+
+       /* Block */
+       .box{
+            width: 200px;
+            background: lightskyblue;
+            padding: 40px;
+            margin: 20px;
+       }
+
+       /* Element */
+       .box button{
+            width: 100px;
+            height: 40px;
+            background: rgb(2, 68, 153);
+            border: none;
+            color: #FFF;
+       }
+
+
+       /* Modificador */
+       .box--bgred{
+            background: red;
+       }
+
+       .btn--bgred {
+            background: rgb(128, 0, 0);
+       }
+
+
+
+
